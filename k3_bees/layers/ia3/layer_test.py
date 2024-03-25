@@ -3,7 +3,7 @@ import pytest
 import keras
 
 from keras import layers, ops
-from k3_peft.layers.ia3.layer import IA3
+from k3_bees.layers.ia3.layer import IA3
 
 @pytest.mark.parametrize(
     "in_layer, multiplier, pre, in_features, out_features",

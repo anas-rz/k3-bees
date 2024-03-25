@@ -3,4 +3,4 @@ import namex
 
 class k3_export(namex.export):
     def __init__(self, path):
-        super().__init__(package="k3_peft", path=path)
+        super().__init__(package="k3_bees", path=path)

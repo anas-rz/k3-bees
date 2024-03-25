@@ -1,9 +1,9 @@
 from keras import layers, ops
 
-from k3_peft.api_export import k3_export
+from k3_bees.api_export import k3_export
 
 
-@k3_export('k3_peft.tuners.IA3')
+@k3_export('k3_bees.layers.IA3')
 class IA3(layers.Layer):
     def __init__(
         self, 
